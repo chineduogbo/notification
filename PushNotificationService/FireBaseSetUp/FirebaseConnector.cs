@@ -16,7 +16,7 @@ namespace PushNotificationService.FireBaseSetUp
         public FirebaseConnector()
         {
             
-            var app = FirebaseApp.Create(new AppOptions() { Credential = GoogleCredential.FromFile("absu-60f99-firebase-adminsdk-c269k-c5efd73b24.json").CreateScoped("https://www.googleapis.com/auth/firebase.messaging") });
+            var app = FirebaseApp.Create(new AppOptions() { Credential = GoogleCredential.FromFile("absu-e3ea9-firebase-adminsdk-jkwsb-bd3aa866dc.json").CreateScoped("https://www.googleapis.com/auth/firebase.messaging") });
             messaging = FirebaseMessaging.GetMessaging(app);
            
         }
