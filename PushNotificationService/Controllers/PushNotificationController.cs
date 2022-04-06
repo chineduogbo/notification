@@ -32,7 +32,7 @@ namespace PushNotificationService.Controllers
 
                 if (item.FcmToken != "")
                 {
-                    await _firebasefcm.SendNotification(item.FcmToken, "AnnounceMents", item.Body, Objectsformessage);
+                    await _firebasefcm.SendNotification(item.FcmToken, item.Title, item.Body, Objectsformessage);
                 }
             }
             return true;

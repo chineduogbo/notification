@@ -36,5 +36,4 @@ C:\Users\Wille\source\repos\PushNotificationService\PushNotificationService\obj\
 C:\Users\Wille\source\repos\PushNotificationService\PushNotificationService\obj\Debug\net5.0\ref\PushNotificationService.dll
 C:\Users\Wille\source\repos\PushNotificationService\PushNotificationService\obj\Debug\net5.0\PushNotificationService.pdb
 C:\Users\Wille\source\repos\PushNotificationService\PushNotificationService\obj\Debug\net5.0\PushNotificationService.genruntimeconfig.cache
-C:\Users\Wille\source\repos\PushNotificationService\PushNotificationService\bin\Debug\net5.0\absu-60f99-firebase-adminsdk-c269k-c5efd73b24.json
-C:\Users\Wille\source\repos\PushNotificationService\PushNotificationService\bin\Debug\net5.0\xplurapp-firebase-adminsdk-dovsy-47dbc31b1e.json
+C:\Users\Wille\source\repos\PushNotificationService\PushNotificationService\bin\Debug\net5.0\absu-e3ea9-firebase-adminsdk-jkwsb-bd3aa866dc.json
