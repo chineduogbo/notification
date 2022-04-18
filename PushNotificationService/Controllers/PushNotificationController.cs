@@ -28,7 +28,7 @@ namespace PushNotificationService.Controllers
  
                 Objectsformessage.Add("PictureUrl", item.SchoolLogo);
 
-          
+                Objectsformessage.Add("Id", $"{item.Id}");
 
                 if (item.FcmToken != "")
                 {
