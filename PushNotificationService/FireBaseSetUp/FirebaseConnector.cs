@@ -40,7 +40,7 @@ namespace PushNotificationService.FireBaseSetUp
                     Notification = new AndroidNotification()
                     {
                         Sound = "default",
-                        Color = "#CA3434",
+                        Color = "#1d1072",
                        // ImageUrl = baseUrl + "Images/ProfilePictures/Avatar.jpg"
                     }
                 },
