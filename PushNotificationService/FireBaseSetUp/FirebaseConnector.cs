@@ -23,29 +23,37 @@ namespace PushNotificationService.FireBaseSetUp
 
         private Message CreateNotification(string title, string notificationBody, string token,Dictionary<string,string> keypairs)
         {
-            return new Message()
+            try
             {
-                Token = token,
-                Data = keypairs,
-                
-                Notification = new Notification()
+                return new Message()
                 {
-                    Body = notificationBody,
-                    Title = title,
-                    
-                },
-                Android = new AndroidConfig()
-                {
-                    Priority = Priority.High,
-                    Notification = new AndroidNotification()
+
+                    Token = token,
+                    Data = keypairs,
+
+                    Notification = new Notification()
                     {
-                        Sound = "default",
-                        Color = "#1d1072",
-                       // ImageUrl = baseUrl + "Images/ProfilePictures/Avatar.jpg"
-                    }
-                },
-               
-            };
+                        Body = notificationBody,
+                        Title = title,
+
+                    },
+                    Android = new AndroidConfig()
+                    {
+                        Priority = Priority.High,
+                        Notification = new AndroidNotification()
+                        {
+                            Sound = "default",
+                            Color = "#1d1072",
+                            // ImageUrl = baseUrl + "Images/ProfilePictures/Avatar.jpg"
+                        }
+                    },
+
+                };
+            }
+            catch(Exception ex)
+            {
+                throw;
+            }
         }
   
 
